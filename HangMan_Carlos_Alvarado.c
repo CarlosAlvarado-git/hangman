@@ -5,7 +5,7 @@
 const char *palabras[23] = {"pronostico", "podio", "marineros","gradas",
         "cepo","sardina","hombros","agitar","revuleto","oveja","limosna","espiral","debut","cartero","desafiar",
         "supermercado","castor","terminal","chimenea","abecedario","amenaza","olas","panorama"};
-        
+
             int opor = 0;
             int acir = 0;
             int gan = 0;
@@ -60,6 +60,7 @@ int main(void)
                 }
                 else{
                   printf("Haz perdido :(\n\n!");
+                  printf("La palabra es: %s\n \n", pal);
                 }
                 break;
               }
@@ -111,7 +112,7 @@ int main(void)
         }
         else if (R == 2)
         {
-            printf("Bienvenido a HangMan, como jugador tendrá 10 intentos \n para tratar de adivina una palabra aleatoria. \n * Podrá ingresar letras o texto.\n * Se le contarán como intento si vuelve a poner la misma letra dos veces.\n * No puede ingresar número. \n * Si ingresa una palabra y no es la correcta, \n perderá automáticamente. \n\n\n");
+            printf("Bienvenido a HangMan, como jugador tendrá 10 intentos \n para tratar de adivina una palabra aleatoria. \n * Podrá ingresar letras o texto.\n * No puede ingresar número. \n\n\n");
         }
         else if (R == 3)
         {
@@ -124,7 +125,7 @@ int main(void)
             break;
         }
     }
-    
+
 
     return 0;
 }
